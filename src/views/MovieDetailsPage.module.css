@@ -1,0 +1,89 @@
+.movie {
+  padding: 10px 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  margin-left: 15px;
+  border: none;
+  font-weight: 500;
+  background-color: lightseagreen;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn:hover {
+  color: lightseagreen;
+  background-color: ivory;
+  border: 2px solid lightseagreen;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.movieCard {
+  width: 1200px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.movie_main {
+  display: flex;
+}
+
+.poster {
+  width: 300px;
+}
+
+.info_box {
+  margin-left: 20px;
+  padding: 0 10px;
+}
+
+.date {
+  display: inline-block;
+  margin-left: 30px;
+  color: lightseagreen;
+}
+
+.score {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 500;
+  color: lightseagreen;
+}
+
+.list {
+  font-weight: bold;
+  list-style: inside;
+}
+
+.item {
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+.addInfo {
+  margin-left: 30px;
+}
+
+.info_list {
+  display: flex;
+  margin-left: 30px;
+}
+
+.info_item {
+  margin: 10px;
+}
+
+.info_item:hover {
+  font-weight: bold;
+  color: lightseagreen;
+}
+
+.info__active {
+  color: red;
+  font-weight: bold;
+}

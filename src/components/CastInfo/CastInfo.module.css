@@ -1,0 +1,31 @@
+.list {
+  display: flex;
+  list-style: none;
+  background-color: white;
+  padding: 30px;
+  margin: 20px 0 0 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.item {
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.thumb {
+  width: 250px;
+  height: 400px;
+}
+
+.photo {
+  width: 250px;
+}
+
+.infoBox {
+  padding: 5px;
+  text-align: center;
+}
+
+.name {
+  font-weight: 500;
+}
