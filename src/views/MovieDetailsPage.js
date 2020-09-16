@@ -9,17 +9,17 @@ import ReviewInfo from '../components/ReviewInfo/ReviewInfo';
 import defaultImg from '../components/no_image.jpg';
 
 class MovieDetailsPage extends Component {
-  state = { movieId: {} };
+  state = { movieId: {}, path: '' };
 
   async componentDidMount() {
     const { movieId } = this.props.match.params;
     const result = await fetch.getMovieById(movieId);
-    this.setState({ movieId: result });
+    this.setState({ movieId: result, path: this.props.location.state.from });
   }
 
   handleGoBack = () => {
-    const { location, history } = this.props;
-    history.push(location?.state?.from || routes.home);
+    const { history } = this.props;
+    history.push(this.state.path);
   };
 
   render() {
